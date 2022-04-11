@@ -2,7 +2,6 @@ import React,{useState} from "react";
 function App() {
   const [Score,setScore]=useState(76);
   const [Wicket,setWicket]=useState(2);
-  const [Ball,setBall]=useState(50);
   const [Overs,setOvers]=useState("8.2")
   //console.log(Overs-Math.floor(Overs)+0.0000000001)
   const addScore=(e)=>{
